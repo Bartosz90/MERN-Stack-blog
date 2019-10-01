@@ -3,8 +3,22 @@
   justify-content: center 
   align-items: center 
   flex-wrap: nowrap
+$baseDark: #313833
 
 * 
   margin: 0
   padding: 0
   box-sizing: border-box
+
+body 
+  +flexCenter 
+  align-content: flex-start
+  background-color: $baseDark 
+  min-height: 100vh 
+  overflow-x: hidden
+  font-family: 'Heebo', sans-serif 
+  color: #fff
+.container 
+  width: 600px
+  min-height: 100vh
+  border: 1px solid #fff
